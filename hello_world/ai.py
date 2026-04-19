@@ -1,9 +1,10 @@
 from openai import OpenAI
 from dotenv import load_dotenv
+import os
 
 load_dotenv()  # Load environment variables from .env file
 client = OpenAI(
-    
+    api_key=os.getenv("OPENAI_API_KEY"),
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
