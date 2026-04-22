@@ -5,11 +5,11 @@ import os
 load_dotenv()  # Load environment variables from .env file
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+    base_url="http://localhost:3000/api"
 )
 
 response = client.chat.completions.create(
-    model="gemini-3-flash-preview",
+    model="deepseek-v3.1:671b-cloud",
     messages=[
         {
             "role": "system",
