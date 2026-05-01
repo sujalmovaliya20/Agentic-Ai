@@ -1,3 +1,4 @@
+# This code is for indexing documents using LangChain and Qdrant. It loads a PDF document, splits it into smaller chunks, generates embeddings using Google's Generative AI, and stores the embeddings in a Qdrant vector database.
 from dotenv import load_dotenv
 from pathlib import Path
 from langchain_community.document_loaders import PyPDFLoader

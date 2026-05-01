@@ -1,3 +1,4 @@
+# This docker-compose file sets up a vector database using Qdrant, which is commonly used in Retrieval-Augmented Generation (RAG) applications. The vector database will be accessible on port 6333.
 services:
 
   vector-db:

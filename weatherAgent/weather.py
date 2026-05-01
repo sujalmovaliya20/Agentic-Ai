@@ -1,3 +1,4 @@
+# This code defines a simple weather agent that fetches weather information for a given city using the wttr.in service. It also integrates with OpenAI's API to allow users to ask questions and receive responses based on the weather information.
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
