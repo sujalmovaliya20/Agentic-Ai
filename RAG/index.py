@@ -19,7 +19,7 @@ doc=loader.load()          #it give you pages
 text_splitter=RecursiveCharacterTextSplitter(
     chunk_size=1000,chunk_overlap=200)
 
-chunks=text_splitter.split_documents(documents=doc)
+chunks=text_splitter.split_documents(documents=doc) 
 
 #vector Embeddings
 embedding_model=GoogleGenerativeAIEmbeddings(model="gemini-embedding-2")
