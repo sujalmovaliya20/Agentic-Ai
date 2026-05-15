@@ -48,7 +48,7 @@ def process_query(query: str):
 # if __name__ == "__main__":
 #     while True:
 #         user_input = input("You: ").strip()
-#         if user_input.lower() in ["exit", "quit"]:
+#         if user_input.lower() in ["exit", "quit"]:  
 #             break
 #         if user_input:
 #             process_query(user_input)
